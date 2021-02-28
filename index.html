@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+
+        .img {
+            width: 150px;
+            height: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        a {
+            color: #706c74;
+            font-size: 22px;
+            margin-right: 20px;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+
+        a:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cotainer-fluid" style="background-color: #C0C0C0;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #C0C0C0;">
+                <a class="navbar-brand" href="#" style="font-size: 22px; color: #706c74;">PORTFOLIO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="row">
+                <div class="col-lg-6 pt-5 pb-5">
+                    <img src="img/agan-2.png" class="img-fluid rounded-circle shadow">
+                </div>
+                <div class="col-lg-6 mt-auto mb-auto">
+                    <p style="color: #706c74; font-size: 22px;">Hello I'am
+                        Galih Setia Adi Pradana</p>
+                    <h1 class="" style="color: #706c74;">Expert In <br> Web Design & Development</h1>
+                    <p style="font-size: 20px; color: #706c74;" class="">Menjadi seorang Web Development adalah fashion
+                        saya
+                        <br> <span style="font-weight: bold; font-size: 24px;">Kepuasan Client adalah yang UTAMA<span>
+                    </p>
+
+                    <div class="media pb-5">
+                        <a href="https://drive.google.com/file/d/1ErlKr3LyMvCCn7BhQ7EOZEfhesF2G3x3/view?usp=sharing"
+                            class="btn btn-primary">Download
+                            Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <h3 class="text-center pt-5">SERVICE</h3>
+
+        <div class="container pt-5">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="card" style="border: none;">
+                        <div class="img">
+                            <img src="img/security.png" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card" style="border: none;">
+                        <div class="img">
+                            <img src="img/responsive.png" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card" style="border: none;">
+                        <div class="img">
+                            <img src="img/employee.png" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap/jquery/jquery_1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('a').css('textDecoration', 'none');
+        });
+    </script>
+</body>
+
+</html>
